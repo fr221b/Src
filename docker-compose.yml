@@ -1,0 +1,81 @@
+# توضیح فارسی:
+# زیرساخت کامل: یک RabbitMQ مشترک + «دو دیتابیس Postgres جدا» (یکی برای هر سرویس) + دو میکروسرویس.
+# فقط زیرساخت:   docker compose up -d rabbitmq orders-db inventory-db   (و بعد سرویس‌ها را با dotnet run اجرا کنید)
+# همه چیز:        docker compose up --build
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"   # پنل مدیریت: http://localhost:15672  (guest / guest)
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "-q", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  orders-db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: orders_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5433:5432"
+    volumes:
+      - orders-db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d orders_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  inventory-db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: inventory_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5434:5432"
+    volumes:
+      - inventory-db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d inventory_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  order-service:
+    build:
+      context: .
+      dockerfile: src/OrderService/OrderService.Api/Dockerfile
+    environment:
+      ConnectionStrings__OrdersDb: "Host=orders-db;Port=5432;Database=orders_db;Username=postgres;Password=postgres"
+      RabbitMq__Host: rabbitmq
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+      orders-db:
+        condition: service_healthy
+    ports:
+      - "5001:8080"
+
+  inventory-service:
+    build:
+      context: .
+      dockerfile: src/InventoryService/InventoryService.Api/Dockerfile
+    environment:
+      ConnectionStrings__InventoryDb: "Host=inventory-db;Port=5432;Database=inventory_db;Username=postgres;Password=postgres"
+      RabbitMq__Host: rabbitmq
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+      inventory-db:
+        condition: service_healthy
+    ports:
+      - "5002:8080"
+
+volumes:
+  orders-db-data:
+  inventory-db-data:

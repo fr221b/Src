@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/InventoryService/">
+    <Project Path="InventoryService/InventoryService.API/InventoryService.API.csproj" Id="5516479b-884a-4d34-b6de-ae341737d146" />
+    <Project Path="InventoryService/InventoryService.Application/InventoryService.Application.csproj" Id="bbbbc03f-2e0d-4ba0-a664-72badc116f11" />
+    <Project Path="InventoryService/InventoryService.Domain/InventoryService.Domain.csproj" Id="2798877a-5d63-4a88-bef8-8af7d7375565" />
+    <Project Path="InventoryService/InventoryService.Infrastructure/InventoryService.Infrastructure.csproj" Id="6577c3d2-d5a2-4c65-9fc2-eee50c1d4fd3" />
+  </Folder>
+  <Folder Name="/OrderService/">
+    <Project Path="OrderService/OrderService.API/OrderService.API.csproj" Id="2e832375-94ec-41b4-a665-72bf456b3859" />
+    <Project Path="OrderService/OrderService.Application/OrderService.Application.csproj" Id="4431a084-5cfb-4e43-a772-618317067ebc" />
+    <Project Path="OrderService/OrderService.Domain/OrderService.Domain.csproj" Id="d25851d5-9a86-4ea3-a7c1-623e1c508948" />
+    <Project Path="OrderService/OrderService.Infrastructure/OrderService.Infrastructure.csproj" Id="4c6e92c6-0e57-4aae-9e2b-12e68a43a83d" />
+  </Folder>
+  <Project Path="OrderProcessing.Contracts/OrderProcessing.Contracts.csproj" Id="b5cfa221-bc8b-4845-b8e7-f8ddb66b9fae" />
+</Solution>

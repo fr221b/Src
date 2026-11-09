@@ -1,0 +1,70 @@
+[
+  {
+    "ContainingType": "OrderService.API.Features.Order.Order",
+    "Method": "CreateOrder",
+    "RelativePath": "orders/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "OrderService.API.Models.Request.OrderRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 202
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/problem\u002Bjson"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Orders"
+    ],
+    "EndpointName": "CreateOrder",
+    "Summary": "OrderRegisteration"
+  },
+  {
+    "ContainingType": "OrderService.API.Features.Order.Order",
+    "Method": "GetOrderById",
+    "RelativePath": "orders/{id:guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderService.Application.Dtos.OrderDto",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Orders"
+    ],
+    "EndpointName": "GetOrderById",
+    "Summary": "OrderReport"
+  }
+]

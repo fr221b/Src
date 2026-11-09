@@ -1,0 +1,11 @@
+D:\OrderProcessingSystem\Src\InventoryService\InventoryService.Domain\bin\Debug\net8.0\InventoryService.Domain.deps.json
+D:\OrderProcessingSystem\Src\InventoryService\InventoryService.Domain\bin\Debug\net8.0\InventoryService.Domain.dll
+D:\OrderProcessingSystem\Src\InventoryService\InventoryService.Domain\bin\Debug\net8.0\InventoryService.Domain.pdb
+D:\OrderProcessingSystem\Src\InventoryService\InventoryService.Domain\obj\Debug\net8.0\InventoryService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\OrderProcessingSystem\Src\InventoryService\InventoryService.Domain\obj\Debug\net8.0\InventoryService.Domain.AssemblyInfoInputs.cache
+D:\OrderProcessingSystem\Src\InventoryService\InventoryService.Domain\obj\Debug\net8.0\InventoryService.Domain.AssemblyInfo.cs
+D:\OrderProcessingSystem\Src\InventoryService\InventoryService.Domain\obj\Debug\net8.0\InventoryService.Domain.csproj.CoreCompileInputs.cache
+D:\OrderProcessingSystem\Src\InventoryService\InventoryService.Domain\obj\Debug\net8.0\InventoryService.Domain.dll
+D:\OrderProcessingSystem\Src\InventoryService\InventoryService.Domain\obj\Debug\net8.0\refint\InventoryService.Domain.dll
+D:\OrderProcessingSystem\Src\InventoryService\InventoryService.Domain\obj\Debug\net8.0\InventoryService.Domain.pdb
+D:\OrderProcessingSystem\Src\InventoryService\InventoryService.Domain\obj\Debug\net8.0\ref\InventoryService.Domain.dll

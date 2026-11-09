@@ -1,0 +1,11 @@
+D:\OrderProcessingSystem\Src\OrderProcessing.Contracts\bin\Debug\net8.0\OrderProcessing.Contracts.deps.json
+D:\OrderProcessingSystem\Src\OrderProcessing.Contracts\bin\Debug\net8.0\OrderProcessing.Contracts.dll
+D:\OrderProcessingSystem\Src\OrderProcessing.Contracts\bin\Debug\net8.0\OrderProcessing.Contracts.pdb
+D:\OrderProcessingSystem\Src\OrderProcessing.Contracts\obj\Debug\net8.0\OrderProcessing.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\OrderProcessingSystem\Src\OrderProcessing.Contracts\obj\Debug\net8.0\OrderProcessing.Contracts.AssemblyInfoInputs.cache
+D:\OrderProcessingSystem\Src\OrderProcessing.Contracts\obj\Debug\net8.0\OrderProcessing.Contracts.AssemblyInfo.cs
+D:\OrderProcessingSystem\Src\OrderProcessing.Contracts\obj\Debug\net8.0\OrderProcessing.Contracts.csproj.CoreCompileInputs.cache
+D:\OrderProcessingSystem\Src\OrderProcessing.Contracts\obj\Debug\net8.0\OrderProcessing.Contracts.dll
+D:\OrderProcessingSystem\Src\OrderProcessing.Contracts\obj\Debug\net8.0\refint\OrderProcessing.Contracts.dll
+D:\OrderProcessingSystem\Src\OrderProcessing.Contracts\obj\Debug\net8.0\OrderProcessing.Contracts.pdb
+D:\OrderProcessingSystem\Src\OrderProcessing.Contracts\obj\Debug\net8.0\ref\OrderProcessing.Contracts.dll

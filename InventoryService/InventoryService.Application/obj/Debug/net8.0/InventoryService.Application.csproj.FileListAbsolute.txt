@@ -1,0 +1,17 @@
+D:\OrderProcessingSystem\Src\InventoryService\InventoryService.Application\bin\Debug\net8.0\InventoryService.Application.deps.json
+D:\OrderProcessingSystem\Src\InventoryService\InventoryService.Application\bin\Debug\net8.0\InventoryService.Application.dll
+D:\OrderProcessingSystem\Src\InventoryService\InventoryService.Application\bin\Debug\net8.0\InventoryService.Application.pdb
+D:\OrderProcessingSystem\Src\InventoryService\InventoryService.Application\bin\Debug\net8.0\InventoryService.Domain.dll
+D:\OrderProcessingSystem\Src\InventoryService\InventoryService.Application\bin\Debug\net8.0\OrderProcessing.Contracts.dll
+D:\OrderProcessingSystem\Src\InventoryService\InventoryService.Application\bin\Debug\net8.0\OrderProcessing.Contracts.pdb
+D:\OrderProcessingSystem\Src\InventoryService\InventoryService.Application\bin\Debug\net8.0\InventoryService.Domain.pdb
+D:\OrderProcessingSystem\Src\InventoryService\InventoryService.Application\obj\Debug\net8.0\InventoryService.Application.csproj.AssemblyReference.cache
+D:\OrderProcessingSystem\Src\InventoryService\InventoryService.Application\obj\Debug\net8.0\InventoryService.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\OrderProcessingSystem\Src\InventoryService\InventoryService.Application\obj\Debug\net8.0\InventoryService.Application.AssemblyInfoInputs.cache
+D:\OrderProcessingSystem\Src\InventoryService\InventoryService.Application\obj\Debug\net8.0\InventoryService.Application.AssemblyInfo.cs
+D:\OrderProcessingSystem\Src\InventoryService\InventoryService.Application\obj\Debug\net8.0\InventoryService.Application.csproj.CoreCompileInputs.cache
+D:\OrderProcessingSystem\Src\InventoryService\InventoryService.Application\obj\Debug\net8.0\Inventor.DFE2E32E.Up2Date
+D:\OrderProcessingSystem\Src\InventoryService\InventoryService.Application\obj\Debug\net8.0\InventoryService.Application.dll
+D:\OrderProcessingSystem\Src\InventoryService\InventoryService.Application\obj\Debug\net8.0\refint\InventoryService.Application.dll
+D:\OrderProcessingSystem\Src\InventoryService\InventoryService.Application\obj\Debug\net8.0\InventoryService.Application.pdb
+D:\OrderProcessingSystem\Src\InventoryService\InventoryService.Application\obj\Debug\net8.0\ref\InventoryService.Application.dll

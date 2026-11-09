@@ -1,0 +1,25 @@
+[
+  {
+    "ContainingType": "InventoryService.API.Features.Product.Product",
+    "Method": "GetProducts",
+    "RelativePath": "products/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IReadOnlyList\u00601[[InventoryService.Application.Dtos.ProductDto, InventoryService.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Products"
+    ],
+    "EndpointName": "GetProducts",
+    "Summary": "Product Report"
+  }
+]
